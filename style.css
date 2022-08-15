@@ -31,6 +31,13 @@ body{
     grid-template-columns: 4fr 1fr;
     gap: 20px;
 }
+@media only screen and (max-device-width: 480px) {
+    .header{
+        display: flex;
+        flex-direction: column;
+        margin: 0 50px;
+    }
+}
 .task{
     padding: 10px;
     border-radius: 5px;
